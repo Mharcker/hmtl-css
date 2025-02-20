@@ -1,0 +1,21 @@
+/*
+This type of selector is used for descendent elements
+it means that you can select any of the elements of main using 
+main <space> element, as in this example
+*/
+main li { font-size: 90%; }
+ul a {color: green;}
+/*
+Now this shows how to select the ***next*** adjacent elements to the one we are programmin for example, here we seleect the p elements front adjacents to h2
+*/
+h2+p{margin-top: 1em;}
+/*
+The gt signal is used to select direct child elements of the one who cames first, it means you can select the p's inside main, but not (if it was the
+case) inside of li
+*/
+main>p{font-size: 80%;}
+li>a{color: orangered;}
+/*The last example selects all siblings elements to the same level of the one who cames first*/
+h2~p{margin-left: 2em;}
+/*this selects a class of certain element, and commas select multiple things*/
+em,h1.title{color: navy;}

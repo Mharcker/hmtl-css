@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/*
+    para HTML id    == # CSS
+    para HTML class == . CSS //e normalmente n usamos especificadores
+*/
+
+body{
+    color: rgb(0, 197, 0);
+    background-color: aquamarine;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    color: rgb(0, 59, 0);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: green;
+    color: aliceblue;
+}
+
+.intermediario{
+    color: rgb(0, 27, 0);
+}
+
+h2{
+    color: rgb(0, 128, 0);
+}
+
+div > p{
+    display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: red;
+    background-color: aqua;
+    width: 300px;
+}

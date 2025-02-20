@@ -1,0 +1,11 @@
+h1{
+    color: rgb(209, 77, 77);
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+img{
+    float: left;
+    width: 400px;
+    margin: 0 3em 1em 1em;
+}

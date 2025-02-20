@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens Dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem grande">
+    </picture>
+    <h1>Para colocar áudios</h1>
+    <p>Para audios usamos a tag audio</p>
+    <audio controls autoplay loop>
+        <source src="guanacast-33.mp3" type="audio/mpeg">
+        <source src="guanacast-33.ogg" type="audio/ogg">
+        <source src="guanacast-33.wav" type="audio/wav">
+        <p>Você não conseguiu baixar o audio você pode tentar baixá-lo <a href="guanacast-33.mp3">aqui</a></p>
+    </audio>
+    <audio controls autoplay loop>
+        <source src="Maxence Cyrin - Where is my mind (slowed)(MP3_128K).mp3" type="audio/mpeg">
+    </audio>
+    <h1>Videos</h1>
+    <p>Para adicionar videos (de forma nativa) podemos fazem de maneira semelhante aos audios e imagens</p>
+    <video poster="fundovideogenerico.jpg" controls autoplay loop>
+        <source src="meuvideotheoffice.mp4" type="video/mp4">
+        <source src="meuvideotheoffice.webm" type="video/webm">
+        <p>Seu navegador não tem suporte ao video que eu to tentando lhe mostrar por favor <a href="meuvideotheoffice.mp4" download="thatswhatshesaid">baixe aqui</a> a disgraça do video</p>
+    </video>
+</body>
+</html>

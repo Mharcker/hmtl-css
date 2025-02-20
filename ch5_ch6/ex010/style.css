@@ -1,0 +1,18 @@
+dl{
+    padding-left: 2em;
+}
+dt{
+    font-style: italic;
+}
+dd{
+   font-family: monospace;
+}
+ul.circle{
+    list-style-type: circle;
+}
+ul.bullet{
+    list-style-image: url("favicon_io/favicon-16x16.png");
+}
+ol.lower_greek{
+    list-style-type: lower-greek;
+}

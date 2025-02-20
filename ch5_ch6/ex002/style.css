@@ -1,0 +1,37 @@
+h1{
+    margin: .5em 1em;
+    border: thin solid green;
+    border-width: 5px 4px 3px 2px;
+    border-color: red green blue orange;
+    border-style: ridge solid dotted dashed;
+}
+p{
+    margin: 1em 1.5em;
+}
+h2{
+    margin: .5em 1em;
+    padding: 0 .5em;
+    border: 2px solid blue;
+    width: 120px;
+    border-radius: 5px 0;
+    box-shadow: 2px 2px 3px 1px red;
+}
+h2>a{
+    color: rgb(241, 241, 255);
+    text-decoration: none;
+}
+h2>a:hover,h2>a:focus{
+    color: purple;
+}
+body{
+    color: white;
+    /*background: lightblue;*/
+    /*background: transparent url() repeat-y scroll center top;*/
+}
+#gradient{
+    background-image: -webkit-linear-gradient(
+        90deg, black 0%, rgb(0, 14, 36) 20%, rgb(0, 23, 58) 100%  
+    );
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}

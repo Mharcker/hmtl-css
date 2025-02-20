@@ -1,0 +1,35 @@
+body{
+    margin: 1em;
+}
+h1{
+    color: blue;
+    text-shadow: -2px 2px 3px red;
+}
+ul{
+    list-style: square;
+}
+#Times{
+    font-family: 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+}
+#Verdana{
+    font-family:Verdana, Geneva, Tahoma;
+    font-weight: normal;
+}
+#Arial{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Monospace{
+    font: oblique lighter 100%/120% monospace, sans-serif;
+}
+footer{
+    text-align: right;
+    line-height: 200%; /*Aumenta ou diminui a altura de uma linha*/
+    vertical-align: bottom; /*Teoricamente alinha verticalmente mas parece n estar funcionando mt bem*/
+}
+main{
+    clear: left;
+}
+header>img{
+    float: left;
+    margin-right: 1em;}

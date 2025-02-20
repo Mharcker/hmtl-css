@@ -1,0 +1,38 @@
+body{
+    margin: 1em 0;
+}
+section.product{
+    margin-left: 1em;
+    width: 270px;
+    height: 400px;
+    float: left;
+    margin-bottom: 5em;
+}
+div{
+    height: 310px;
+}
+.preco{
+    height: 20px;
+    width: 250px;
+    text-align: center;
+}
+.nome{
+    margin: 1em auto;
+    width: 250px;
+    text-align: center;
+}
+a>h3.nome{
+    color: black;
+}
+article{
+    clear: both;
+}
+footer{
+    clear: both;
+}
+:link{
+    text-decoration: none;
+}
+a:hover,a:focus{
+    font-size: large;
+}

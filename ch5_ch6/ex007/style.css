@@ -1,0 +1,17 @@
+h2{
+    margin: 0;
+    padding: 0;
+}
+article{
+    -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    -webkit-column-rule: 2px solid black;
+    -moz-column-rule: 2px solid black;
+    column-rule: 2px solid black;
+    -webkit-column-gap: 2em;
+    -moz-column-gap: 2em;
+    column-gap: 2em;
+    margin: 1em auto;
+    width: 900px;
+}

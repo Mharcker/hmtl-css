@@ -1,0 +1,6 @@
+a:link{color: green;}/*antes de clicar no link*/
+a:visited{color: rgb(128, 0, 64);}/*/apos clicar no link*/
+a:active{color: rgba(255, 0, 0, 0.473);}/*Segurando o link*/
+a:hover, a:focus{ font-weight: bold; }/*Passando o mouse no link*/
+main p:first-child {font-weight: bold;}
+main p:first-child::first-letter {font-size: 150%;}

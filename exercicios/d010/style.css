@@ -1,0 +1,130 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'idroidregular';
+    src: url('/home/markins/Documentos/WebDev/hmtl-css/exercicios/d010/pacote-projeto-d010/fontes/idroid-webfont.woff2') format('woff2'),
+         url('home/markins/Documentos/WebDev/hmtl-css/exercicios/d010/pacote-projeto-d010/fontes/idroid-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    background-color: rgb(127, 255, 165);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1,h2{
+    margin: 0;
+}
+header{
+    background-image: linear-gradient(180deg,#3fc27a,#289c5c,#268550,#154b2d);
+    color: white;
+    text-align: center;
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.493);
+}
+header h1{
+    padding: .5em;
+}
+header>p{
+    margin: 1em auto;
+    width: 400px;
+}
+header nav{
+    padding: .5em 0;
+    text-align: left;
+}
+header nav a{
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+}
+header nav a:hover{
+    background-color: #289c5c;
+}
+
+main{
+    background-color: white;
+    text-align: center;
+    padding-bottom: 1em;
+    margin: 0 auto 1em;
+    max-width: 890px;
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0px 3px 8px 2px rgba(0, 0, 0, 0.493);
+}
+strong.artigo{
+    color: darkgreen;
+}
+a.link{
+    text-decoration: none;
+    font-weight: bold;
+    color: darkgreen;
+}
+a.link::after{
+    content: url('/home/markins/Documentos/WebDev/hmtl-css/exercicios/d010/pacote-projeto-d010/imagens/icons8-link-16.ico');
+    
+}
+main article{
+    padding: 0 2em;
+}
+main p, main h1, main h2, main h3{text-align: left;}
+main p{
+    text-indent: 2em;
+    text-align: justify;
+    font-size: large;
+}
+main h1{
+    padding: 1em 0 0;
+    font-family: 'idroidregular', serif;
+    color: #154b2d;
+}
+main h2{
+    font-family: 'idroidregular', serif;
+    color: #154b2d;
+    background-image: linear-gradient(270deg,#ffffff,#128f4a83);
+}
+main section#video{
+    /*border-width: 1em 2em;
+    border-color: #154b2d;
+    border-style: solid;*/
+    height: 484px ;
+    background-color: #154b2d;
+}
+main section article#tabela{
+   background-color:#3fc27a93 ;
+   margin: 2em;
+   padding: 0 0 1em;
+   border-radius: 20px;
+}
+main section article#tabela h3{
+    background-color:#268550 ;
+    padding: 1em;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+}
+ main section article#tabela p{
+    clear: both;
+    margin: 1em;
+}
+main section article ul{
+    text-align: center;
+    width: 40%;
+    float: left;
+}
+main section article ul li{
+    list-style-type: none;
+    text-align: justify;
+}
+main section article ul li::before{
+    content: "✓    ";
+}
+
+footer{
+    background-color: rgb(0, 77, 0);
+    color: white;
+    padding: .5em;
+}
+footer>p{
+    margin: 0;
+    text-align: center;
+}

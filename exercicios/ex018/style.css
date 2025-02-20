@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'RomanSD';
+    src: url('Roman\ SD.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font: italic normal 1em 'Arial, Helvetica, Verdana, sans-serif';
+    /*
+    -font style
+    -font weight
+    -font size
+    -font style
+    */
+}
+h1{
+    font-style: normal;
+    font-family: "Bungee Tint", sans-serif;
+}
+h2{
+    font-family: "RomanSD", sans-serif;
+}
+p{
+    font-family: "Work Sans", sans-serif;
+}

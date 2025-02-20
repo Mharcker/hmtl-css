@@ -1,0 +1,42 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+}
+
+a {font-weight: bold;}
+a:link{ color: #931420;}
+a:visited{color: #f2972e;}
+a:hover, a:focus{color: blue;}
+
+ul{line-height: 1.5;}
+li,p{font-size: 95%;}
+em{font-weight: bold;}
+
+/*header*/
+header>img{
+    float: left;
+}
+header>h2{
+    font-size: 200%;
+    text-align: center;
+    text-shadow: 2px 2px 3px black;
+    color: rgb(255, 174, 0);
+}
+header>h3{
+    font-size: 130%;
+    font-style: italic;
+    text-align: center;
+}
+
+/*main*/
+main{clear: left;}
+main h1{ font-size: 170%;}
+main h2{ font-size: 130%;}
+main p.indent{text-indent: 2em;}
+
+main a:visited.date_passed{color: gray;}
+
+footer p{
+    text-align: right;
+    font-size: 80%;
+}

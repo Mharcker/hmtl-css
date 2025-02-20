@@ -1,0 +1,129 @@
+html{
+    background-image: -webkit-linear-gradient(
+        90deg, white 0%, #facd8a 100%
+    );
+    background-image: -moz-linear-gradient(
+        90deg, white 0%, #facd8a 100%
+    );
+    background-image: -o-linear-gradient(
+        90deg, white 0%, #facd8a 100%
+    );
+    background-image: linear-gradient(        
+        0deg, white 0%, #facd8a 50%, #facd8a 100%, #facd8a 50%, white 0%
+    );
+    background-repeat: no-repeat;
+}
+body{
+/*Borders*/
+    width: 990px;
+    background-color: white; 
+    border: 1px solid black;
+    padding: 1em 0;
+/*Configs*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 100%;
+    margin: 1em auto;
+}
+
+section,aside,h1,h2,h3,p{
+    margin: 0;
+    padding: 0;
+}
+
+section, aside{
+    margin-top: 1.5em;
+    padding-bottom: 1em;
+}
+
+a {font-weight: bold;}
+a:link{ color: #931420;}
+a:visited{color: #f2972e;}
+a:hover, a:focus{color: blue;}
+
+ul{
+    margin: 0 0 1.5em;
+}
+li{
+    font-size: 95%;
+    padding-bottom: .35em;
+}
+p{
+    font-size: 95%;
+    padding: .5em 0;
+}
+
+em{font-weight: bold;}
+
+/*header*/
+header{
+    padding-bottom: 2em;
+    border-bottom: 2px solid #f2972e;}
+header>img{
+    margin-left: 20px;
+    float: left;
+}
+header>h2{
+    font-size: 220%;
+    text-shadow: 2px 2px 0 black;
+    color: rgb(255, 174, 0);
+    margin-left: 120px;
+    margin-bottom: .25em;
+}
+header>h3{
+    font-size: 130%;
+    font-style: italic;
+    margin-left: 120px;
+}
+
+/*section*/
+section{
+    width: 535px;
+    margin-left: 20px;
+    padding-right: 25px;
+    float: left;
+}
+/*aside*/
+aside{
+    width: 350px;
+    float: right;
+    padding: 20px;
+    background-color: #ffebc6;
+    margin-right: 20px;
+}
+aside h2{
+    font-size: 130%;
+    padding-bottom: .5em;
+}
+aside h3{
+    font-size: 100%;
+    color: #931420;
+    padding-bottom: .5em;
+}
+aside p{
+    padding-bottom: .5em;
+}
+/*main*/
+main{clear: left;}
+main h1{ 
+    font-size: 170%;
+    margin-bottom: .35em;
+}
+main h2{ 
+    font-size: 130%;
+    margin-bottom: .35em;
+}
+main p.indent{text-indent: 2em;}
+
+main a:visited.date_passed{color: gray;}
+
+#contact_us{margin-top: 1em;}
+footer{
+    clear: both;
+    border-top: 2px solid #f2972e;
+    padding-top: .7em;
+}
+footer p{
+    text-align: right;
+    font-size: 80%;
+    margin-right: 20px;
+}

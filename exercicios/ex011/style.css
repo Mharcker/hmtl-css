@@ -1,0 +1,23 @@
+body{
+    margin-left: 2em;
+    margin-right: 2em;
+    background-color: #FFFFCC;
+}
+header{
+    padding-bottom: .75em;
+    border-bottom: 3px solid black;
+    margin-bottom: 0;
+}
+h1{
+    font-size: 200%;
+    margin-bottom: 0;
+    color: #00F;
+}
+h2{
+    /*color: rgba(0, 0, 255, .2);
+    color: hsl(120, 100%, 25%);
+    color: hsl(120, 75%, 75%);
+    */
+    color: hsla(240, 100%, 50%, 0.5);
+
+}
